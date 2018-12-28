@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form 2 - Week 4</title>
+</head>
+<body>
+  
+<h1>Register</h1>
+        <form action="/submit" method="POST">
+            <label for="name">First Name:</label>
+                  <input type="text" name="fname" required>
+                <label for="name">Last Name:</label>
+                    <input type="text" name="lname" required><br>
+                  <label for="gender">Male</label>
+                     <input type="radio" name="gender" value="male" checked> 
+                   <label for="gender">Female</label>
+                     <input type="radio" name="gender" value="female" checked>   
+                   <label for="gender">Other</label>
+                     <input type="radio" name="gender" value="other" checked><br>
+                 <label for="email">Email:</label>
+                   <input id="email" name="email" type="email" required> 
+                 <label for="password">Password:</label>
+                   <input id="password" name="password" type="password"  minlength="5" maxlength="10" required > <br>
+                   <label for="birthday">Birthday:</label>
+                <select>
+                    <option value="Month">Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                 </select>
+                 <select>
+                    <option value="Day">Day</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                 </select>
+                 <select>
+                    <option value="Year">Year</option>
+                    <option value="2000">2000>/option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                 </select><br><br>
+                  I agree to the terms and conditions <input type="checkbox"><br><br>
+                 <input type="submit" value="Submit">
+
+   </form>
+
+</body>
+</html>
