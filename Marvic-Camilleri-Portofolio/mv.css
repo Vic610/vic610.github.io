@@ -1,0 +1,353 @@
+body ,html{
+    font-family: 'Open Sans',"Helvetica Neue",Verdana,sans-serif ;
+    font-size: 16px;
+    margin:0;
+    padding:0;
+    border:0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    p.intro {font-size:2.3rem;
+      padding:70px 15px 10px;
+      line-height:3.5rem;}
+    
+      p.welcome {font-size:85px;
+        padding:130px 40px;
+      }
+
+    img.imgs{   
+      width:200px;
+      height:270px; 
+      padding-bottom:35px;
+       }
+
+    p.graphic{
+        font-size:1rem;
+        letter-spacing: 0.2rem;
+  }
+  p.thanku {
+    font-size:2.5rem;
+    padding:110px 10px ;
+    text-align: center;
+    line-height: 1rem;
+   }
+   
+   span.thank2{
+    font-size:1rem;
+   }
+   
+   span.smile{
+    font-size:1rem;
+   }
+
+   h3{  
+     font-size:1.2rem;
+   }
+   
+   img.healthimg{
+    width:90%;
+    padding-top:60px;
+   }
+   
+   img.portoimg{
+     width:50%;
+   }
+  
+   p.noteimg {
+    font-size:0.75rem;
+   }
+  }
+
+
+  /* NavBar*/
+ 
+  .nav{
+    background-color: #ffffff;
+  }
+  
+  .navbar{
+  font-family: 'Open Sans',Verdana,sans-serif ;
+  font-size: 1rem;
+}
+
+ .navbar .navbar-nav li a {
+color: #191d3c !important;
+padding: 8px 16px !important;
+ } 
+ 
+ .navbar .nav-item .nav-link:hover{
+color: red !important;
+} 
+ 
+.navbar .nav-item .nav-link:active{
+  color: red !important;
+  } 
+
+ .navbar .navbar-brand {
+margin: 0 auto;
+align-self: center;
+ }
+ 
+
+ /* Home Page*/
+ 
+ .home{
+  Background-color: #191d3c ;
+  margin-top:30px;
+ }
+
+ 
+ .intro {
+   font-size:5rem;
+   letter-spacing: 0.1rem;
+   line-height:5.5rem;
+   font-family: 'Playfair Display',Georgia, serif;
+   color: #ffffff ;
+   padding:80px 10px 10px;
+  }
+
+  .red{
+    color:red;
+    font-style: italic;
+  }
+
+  .nearly{
+  text-decoration: line-through;
+  text-decoration-color: red;
+  -webkit-text-decoration-color: red;
+  color:#ffffff;
+  } 
+  
+  .imgs{
+  width:250px;
+  height:378px; 
+  padding-bottom:45px;
+
+  }
+
+
+  
+/* Middle- page - homepage*/
+.welcome{ 
+  color:red;
+  text-align: center;
+  font-size:9rem;
+  padding:200px 40px;
+  font-family: 'Playfair Display',Georgia, serif;
+  font-style: bold;
+  -webkit-animation:colorchange 6s infinite alternate;
+  animation:colorchange 6s infinite alternate;
+}
+
+/* Safari */
+@-webkit-keyframes colorchange {
+  0%   {color: red;}
+  25%  {color: #20b2aa;}
+  50%  {color: #ff1493;}
+  100% {color: #daa520;}
+}
+
+@keyframes colorchange{
+  0%   {color: red;}
+  25%  {color: #20b2aa;}
+  50%  {color: #ff1493;}
+  100% {color: #daa520;}
+}
+  
+/* About/contact- page*/
+
+h4{
+  font-family: 'Playfair Display',Georgia, serif;
+  font-size:1.2rem;
+  color:red;
+  text-align: left;
+  margin:0;
+  letter-spacing: 0.075rem;
+}
+
+.about{ 
+  color: #ffffff ;
+  padding-top:6%;
+  padding-bottom:0.5%;
+  padding-right: 8%;
+  padding-left: 12%;
+}
+
+.contact{
+  color: #ffffff ;
+  padding-top:4%;
+  padding-bottom:1%;
+  padding-right: 8%;
+  padding-left: 12%;
+ 
+}
+
+/* Form*/
+
+form{
+ margin-bottom:16%; 
+}
+
+label{
+  display: block !important;
+  margin: 0!important;
+}
+
+input[type=text],[type=email] {
+width: 100%;
+padding: 2px 5px;
+border: 0.5px solid #ffffff;
+border-radius: 2px;    
+box-sizing: border-box; 
+}
+
+input[type=submit] {
+  width:150px;
+  background-color:#ffffff;
+  color:#191d3c;
+  padding: 10px 10px;
+  margin: 15px 0;
+  border: 0.2px solid #ffffff;
+  border-radius: 4px;
+}
+
+textarea{
+  width:100%;
+  height:200px;
+  padding: 15px 15px;
+  margin:0;
+  border: 0.5px solid #ffffff;
+  border-radius: 2px;
+}
+.insta {
+ margin:0 0 2% 0;
+ text-decoration: underline;
+ letter-spacing: 0.05rem;
+}
+
+.insta a {
+  color: #ffffff !important;
+ }
+
+p.insta a:hover{
+  color: red !important;
+  } 
+
+  /* selected work-page*/
+
+.work{
+border:0;
+}
+
+.top{
+  margin-top:68px;
+}
+
+.graphic{
+    font-size:2rem;
+    letter-spacing: 0.3rem;
+    color:#ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding:20px 0;
+    color: #191d3c;
+  }
+
+
+/* Bottom-work page*/
+
+
+  .thanku {
+    font-size:7rem;
+    letter-spacing: 0.3rem;
+    line-height:6rem;
+    font-family: 'Playfair Display',Georgia, serif;
+    color: #191d3c;
+    padding:255px 10px 250px;
+   }
+
+   .thank2{
+    font-size:4rem;
+    letter-spacing: 0.1rem;
+    line-height:6rem;
+    font-family: 'Playfair Display',Georgia, serif;
+    color: #191d3c;
+    text-align: center
+   }
+   
+   .smile{
+    font-size:2.5rem;
+    color: red; 
+    letter-spacing: 0rem;
+   }
+
+/* footer-work page*/
+
+footer{
+  width:100%;
+}
+  .end{
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-bottom: 0;
+    color: #ffffff ;
+    text-align: center;
+    background-color: #191d3c;
+    font-size: 0.7rem;
+  }
+  
+/* images of selected works on every work page*/
+.portoimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 90px 0;
+}
+
+.healthimg{
+  width:60%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top:60px;
+ padding-bottom: 30px;
+ color:#191d3c;
+}
+
+
+h3{
+  color: #191d3c;
+  text-align:center;
+  font-size: 1.5rem;
+ }
+
+ .noteimg{
+  text-align:center ;
+  color: #191d3c;
+  padding-bottom: 70px ;
+  font-family: 'Playfair Display',Georgia, serif;
+ }
+
+  
+/* carousel page*/
+ .carousel-indicators li{
+  background-color:#191d3c;
+  margin-top: 30px !important;  
+}
+.carousel-indicators .active {
+  background-color:red;
+}
+
+.carousel-control-next-icon {
+  background-color:#191d3c;  
+}
+
+
+.carousel-control-prev-icon{
+  background-color:#191d3c;
+}  
+
+.carousel-item{
+  width:75%;
+ 
+}
