@@ -216,21 +216,21 @@ textarea{
   height:200px;
   padding: 15px 15px;
   margin:0;
-  border: 0.5px solid #ffffff;
   border-radius: 2px;
 }
 .insta {
- margin:0 0 2% 0;
- text-decoration: underline;
- letter-spacing: 0.05rem;
+  margin:0 0 2% 0;
+  text-decoration: underline;
+  letter-spacing: 0.05rem;
 }
 
 .insta a {
   color: #ffffff !important;
- }
+}
 
 p.insta a:hover{
   color: red !important;
+  border: 0.5px solid #ffffff;
   } 
 
   /* selected work-page*/
@@ -287,8 +287,8 @@ footer{
   width:100%;
 }
   .end{
-    padding-top: 20px;
-    padding-bottom:20px;
+    padding-top: 15px;
+    padding-bottom:15px;
     margin-bottom: 0;
     color: #ffffff ;
     text-align: center;
@@ -348,6 +348,6 @@ h3{
 }  
 
 .carousel-item{
-  width:75%;
- 
+  width:70%;
+ margin:0 auto;
 }
